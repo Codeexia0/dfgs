@@ -22,8 +22,8 @@ This project demonstrates a ROS2-based robot control system using a TurtleBot si
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/aruco_marker_robot_control.git
-   cd aruco_marker_robot_control
+   git clone https://github.com/Codeexia0/ros2_opencv_control
+   cd ros2_opencv_control
    ```
 
 2. Build the ROS2 workspace:
@@ -44,19 +44,20 @@ This project demonstrates a ROS2-based robot control system using a TurtleBot si
 1. **Launch the Camera Driver**
    Start the camera driver to capture the video feed:
    ```bash
-   ros2 launch usb_cam usb_cam.launch.py
+   ros2 run usb_cam usb_cam_node_exe
    ```
 
 2. **Run the Custom Node**
    Run the node to process the video feed and detect ArUco markers:
    ```bash
-   ros2 run aruco_marker_robot_control camera_subscriber
+   ros2 run camera_subscriber camera_node
    ```
 
 3. **Launch the Robot in Gazebo**
    Start the Gazebo simulation environment:
    ```bash
-   ros2 launch aruco_marker_robot_control robot_sim.launch.py
+   export TURTLEBOT3_MODEL=burger
+   ros2 launch turtlebot3_gazebo empty_world.launch.py
    ```
 
 ## Demonstration
