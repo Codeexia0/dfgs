@@ -66,9 +66,4 @@ This project demonstrates a ROS2-based robot control system using a TurtleBot si
 
 Click the image above to watch the demonstration video: **"ArUco Marker Robot Control with ROS2"**.
 
-## Files
-
-- **camera_subscriber.py**: Custom node for processing the camera feed and controlling the robot.
-- **robot_sim.launch.py**: Launch file for simulating the robot in Gazebo.
-- **usb_cam.launch.py**: Launch file for starting the camera driver.
 
