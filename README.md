@@ -4,7 +4,7 @@ This project demonstrates a ROS2-based robot control system using a TurtleBot si
 
 ## Features
 
-- **Camera Integration**: Uses the `usb_cam` package to capture video from a built-in or external camera.
+- **Camera Integration**: Uses the `usb_cam` package to capture video from a built-in or external camera.a
 - **ArUco Marker Detection**: Detects markers in the video feed and determines their position relative to the camera's field of view.
 - **Robot Control**: Moves the robot:
   - **Forward**: When the marker is in the top half of the image.
