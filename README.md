@@ -28,6 +28,7 @@ This project demonstrates a ROS2-based robot control system using a TurtleBot si
 
 2. Build the ROS2 workspace:
    ```bash
+   source /opt/ros/humble/setup.bash
    colcon build
    source install/setup.bash
    ```
